@@ -6,6 +6,7 @@ This starter project has everything you need to start developing a Figma plugin 
 ## To get started
 ```npx degit thomas-lowry/figma-plugin-svelte-boilerplate figma-plugin
 cd figma-plugin
-npm install```
+npm install
+```
 
 _Note that you will need to have [Node.js](https://nodejs.org/) installed._
