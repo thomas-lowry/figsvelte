@@ -10,7 +10,7 @@ Any components, icons or CSS that you don't use won't be included in your final 
 
 ## Get started
 ```bash
-#clone latest version of this git repo into a folder
+#clone latest version of this repo to a new directory
 npx degit thomas-lowry/figsvelte figma-plugin
 
 #navigate to new directory
