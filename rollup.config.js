@@ -5,7 +5,6 @@ import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import svg from 'rollup-plugin-svg';
 import typescript from 'rollup-plugin-typescript';
-import image from '@rollup/plugin-image';
 
 /* Post CSS */
 import postcss from 'rollup-plugin-postcss';
@@ -44,7 +43,6 @@ export default [{
 			extensions: [ '.css' ],
 			plugins: [ cssnano() ]
 		}),
-		image(),
 		htmlBundle({
             template: 'src/template.html',
 			target: 'public/index.html',
