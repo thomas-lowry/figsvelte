@@ -41,7 +41,6 @@ import styles from './styles.css';
 
 To include an SVG:
 ```javascript
-//import svg
 import SvgName from './image.svg';
 
 //use in your markup
