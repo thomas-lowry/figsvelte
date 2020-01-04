@@ -27,7 +27,6 @@ _Note that you will need to have [Node.js](https://nodejs.org/) installed._
 #enter development mode and watch files for changes
 npm run dev
 ```
-_Livereload will be enabled for scaffolding out your UI locally, but you will still need to refresh your plugin when testing in Figma._
 
 
 ## Build
