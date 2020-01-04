@@ -80,7 +80,7 @@ To include an SVG:
 ```javascript
 import SvgName from './image.svg';
 ```
-```svelte
+```html
 {@html SvgName}
 ```
 _For more info on using the Icon component system from [Figma Plugin DS Svelte](https://github.com/thomas-lowry/figma-plugin-ds-svelte), refer to the repo_
