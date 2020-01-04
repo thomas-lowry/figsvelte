@@ -83,4 +83,4 @@ import SvgName from './image.svg';
 ```html
 {@html SvgName}
 ```
-_For more info on using the Icon component system from [Figma Plugin DS Svelte](https://github.com/thomas-lowry/figma-plugin-ds-svelte), refer to the repo_
+_For more info on using the Icon component system with SVGs from [Figma Plugin DS Svelte](https://github.com/thomas-lowry/figma-plugin-ds-svelte), refer to the repo._
