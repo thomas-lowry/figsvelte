@@ -8,26 +8,30 @@ Additionally, this package comes preconfigured with [Figma Plugin DS Svelte](htt
 Any components, icons or CSS that you don't use won't be included in your final build.
 
 
-## To get started
+## Get started
 ```bash
+#clone latest version of this git repo into a folder
 npx degit thomas-lowry/figsvelte figma-plugin
+
+#navigate to new directory
 cd figma-plugin
+
+#install all dependencies
 npm install
 ```
 
 _Note that you will need to have [Node.js](https://nodejs.org/) installed._
 
-## Development
-During development, watch your project for changes with the following command.
-
+## Develop
 ```bash
+#enter development mode and watch files for changes
 npm run dev
 ```
-
 _Livereload will be enabled for scaffolding out your UI locally, but you will still need to refresh your plugin when testing in Figma._
 
+
 ## Build
-When ready to package up your final Figma Plugin:
 ```bash
+#build project and minify output
 npm run build
 ```
