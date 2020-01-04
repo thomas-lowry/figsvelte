@@ -28,6 +28,8 @@ _Note that you will need to have [Node.js](https://nodejs.org/) installed._
 npm run dev
 ```
 
+You can start building your plugin UI in `'src/Plugin.svelte'`.
+
 
 ## Build
 ```bash
