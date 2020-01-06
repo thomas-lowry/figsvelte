@@ -23,7 +23,7 @@ During development, watch your project for changes with the following command.
 ```bash
 npm run dev
 ```
-You can start building your plugin UI in `'src/Plugin.svelte'`.
+Start building your plugin UI in `'src/Plugin.svelte'`.
 
 
 ## Build
