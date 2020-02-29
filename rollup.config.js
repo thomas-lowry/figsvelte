@@ -35,16 +35,17 @@ export default [{
 		// https://github.com/rollup/plugins/tree/master/packages/commonjs
 		resolve({
 			browser: true,
-			dedupe: importee => importee === 'svelte' || importee.startsWith('svelte/')
+			dedupe: importee => importee === 'svelte' || importee.startsWith('svelte/'),
+			extensions: ['.svelte', '.mjs', '.js', '.json', '.node']
 		}),
 		commonjs(),
 		svg(),
 		postcss({
-			extensions: [ '.css' ],
-			plugins: [ cssnano() ]
+			extensions: ['.css'],
+			plugins: [cssnano()]
 		}),
 		htmlBundle({
-            template: 'src/template.html',
+			template: 'src/template.html',
 			target: 'public/index.html',
 			inline: true
 		}),
@@ -65,7 +66,7 @@ export default [{
 		clearScreen: false
 	}
 },
-{ 
+{
 	input: 'src/code.ts',
 	output: {
 		file: 'public/code.js',
