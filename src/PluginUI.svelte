@@ -46,8 +46,8 @@
 	<Input iconText="#" bind:value={count} class="mb-xxsmall"/>
 
 	<div class="flex p-xxsmall mb-xsmall">
-	<Button on:click={cancel} secondary class="mr-xsmall">Cancel</Button>
-	<Button on:click={createShapes} primary bind:disabled={disabled}>Create shapes</Button>
+	<Button on:click={cancel} variant="secondary" class="mr-xsmall">Cancel</Button>
+	<Button on:click={createShapes} bind:disabled={disabled}>Create shapes</Button>
 	</div>
 
 </div>
