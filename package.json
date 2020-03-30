@@ -11,7 +11,7 @@
     "@rollup/plugin-image": "^2.0.4",
     "@rollup/plugin-node-resolve": "^6.1.0",
     "cssnano": "^4.1.10",
-    "figma-plugin-ds-svelte": "^1.0.0",
+    "figma-plugin-ds-svelte": "^1.0.1",
     "rollup": "^1.32.1",
     "rollup-plugin-html-bundle": "0.0.3",
     "rollup-plugin-livereload": "^1.1.0",
