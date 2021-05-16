@@ -1,6 +1,6 @@
 {
   "name": "svelte-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
@@ -11,7 +11,11 @@
     "@rollup/plugin-image": "^2.0.4",
     "@rollup/plugin-node-resolve": "^6.1.0",
     "cssnano": "^4.1.10",
+<<<<<<< HEAD
     "figma-plugin-ds-svelte": "^1.0.4",
+=======
+    "figma-plugin-ds-svelte": "^1.0.5",
+>>>>>>> 358b6b20778c875c107ee16bfdf32e36418425db
     "rollup": "^1.32.1",
     "rollup-plugin-html-bundle": "0.0.3",
     "rollup-plugin-livereload": "^1.1.0",
