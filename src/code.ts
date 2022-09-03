@@ -6,7 +6,7 @@
 // full browser enviroment (see documentation).
 
 // This shows the HTML page in "ui.html".
-figma.showUI(__html__, {width: 232, height: 208 });
+figma.showUI(__html__, {themeColors: true, width: 232, height: 208});
 
 // Calls to "parent.postMessage" from within the HTML page will trigger this
 // callback. The callback will be passed the "pluginMessage" property of the
